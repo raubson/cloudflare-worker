@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-worker",
+  "version": "1.0.0",
+  "description": "Worker PHP converti en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run babel",
+    "babel": "babel index.php -o index.js",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-php": "^1.0.0"
+  }
+}

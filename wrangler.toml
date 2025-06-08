@@ -1,0 +1,4 @@
+name = "cloudflare-worker"
+main = "src/index.js"
+compatibility_date = "2025-06-08"
+workers_dev = true
